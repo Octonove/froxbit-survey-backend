@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/configy-model",
+      "handler": "configy-model.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/configy-model",
+      "handler": "configy-model.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/configy-model",
+      "handler": "configy-model.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

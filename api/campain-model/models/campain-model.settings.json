@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "campain_models",
+  "info": {
+    "name": "CampainModel"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "order": {
+      "type": "biginteger"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "selected": {
+      "type": "boolean"
+    },
+    "question": {
+      "type": "biginteger"
+    },
+    "answer": {
+      "type": "biginteger"
+    }
+  }
+}

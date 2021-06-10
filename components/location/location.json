@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_location_locations",
+  "info": {
+    "name": "location",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "locality": {
+      "type": "string"
+    },
+    "cityId": {
+      "type": "biginteger"
+    },
+    "city": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "string"
+    },
+    "zipcode": {
+      "type": "string"
+    },
+    "longitude": {
+      "type": "string"
+    },
+    "countryId": {
+      "type": "biginteger"
+    },
+    "address": {
+      "type": "string"
+    },
+    "localityVerbose": {
+      "type": "string"
+    }
+  }
+}

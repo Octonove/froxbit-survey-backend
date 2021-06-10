@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_models",
+  "info": {
+    "name": "CategoryModel"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "order": {
+      "type": "biginteger"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "questions": {
+      "type": "biginteger"
+    },
+    "src": {
+      "type": "string"
+    },
+    "selected": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restaurants",
+  "info": {
+    "name": "Restaurant",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "switchToOrderMenu": {
+      "type": "biginteger"
+    },
+    "cuisines": {
+      "type": "string"
+    },
+    "timings": {
+      "type": "string"
+    },
+    "averageCostForTwo": {
+      "type": "biginteger"
+    },
+    "priceRange": {
+      "type": "biginteger"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "opentableSupport": {
+      "type": "biginteger"
+    },
+    "isZomatoBookRes": {
+      "type": "biginteger"
+    },
+    "mezzoProvider": {
+      "type": "string"
+    },
+    "isBookFormWebView": {
+      "type": "biginteger"
+    },
+    "bookFormWebViewUrl": {
+      "type": "string"
+    },
+    "bookAgainUrl": {
+      "type": "string"
+    },
+    "thumb": {
+      "type": "string"
+    },
+    "allReviewsCount": {
+      "type": "biginteger"
+    },
+    "photosUrl": {
+      "type": "string"
+    },
+    "photoCount": {
+      "type": "biginteger"
+    },
+    "menuUrl": {
+      "type": "string"
+    },
+    "featuredImage": {
+      "type": "string"
+    },
+    "hasOnlineDelivery": {
+      "type": "biginteger"
+    },
+    "isDeliveringNow": {
+      "type": "biginteger"
+    },
+    "storeType": {
+      "type": "string"
+    },
+    "includeBogoOffers": {
+      "type": "boolean"
+    },
+    "deeplink": {
+      "type": "string"
+    },
+    "isTableReservationSupported": {
+      "type": "biginteger"
+    },
+    "hasTableBooking": {
+      "type": "biginteger"
+    },
+    "eventsUrl": {
+      "type": "string"
+    },
+    "phoneNumbers": {
+      "type": "string"
+    },
+    "location": {
+      "type": "component",
+      "repeatable": false,
+      "component": "location.location"
+    }
+  }
+}

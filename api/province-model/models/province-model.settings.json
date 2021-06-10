@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "province_models",
+  "info": {
+    "name": "ProvinceModel"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "departamentId": {
+      "type": "biginteger"
+    }
+  }
+}

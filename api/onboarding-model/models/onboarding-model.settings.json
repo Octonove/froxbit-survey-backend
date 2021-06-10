@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "onboarding_models",
+  "info": {
+    "name": "OnboardingModel"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

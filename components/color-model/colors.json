@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_color_model_colors",
+  "info": {
+    "name": "colors",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "type": "string"
+    },
+    "contrastBackground": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "contrastText": {
+      "type": "string"
+    },
+    "primaryColor": {
+      "type": "string"
+    },
+    "primaryColorDark": {
+      "type": "string"
+    },
+    "accentColor": {
+      "type": "string"
+    },
+    "buttonColor": {
+      "type": "string"
+    }
+  }
+}

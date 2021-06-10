@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/campain-models",
+      "handler": "campain-model.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/campain-models/count",
+      "handler": "campain-model.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/campain-models/:id",
+      "handler": "campain-model.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/campain-models",
+      "handler": "campain-model.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/campain-models/:id",
+      "handler": "campain-model.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/campain-models/:id",
+      "handler": "campain-model.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
